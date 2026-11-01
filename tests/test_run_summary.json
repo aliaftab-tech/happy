@@ -1,0 +1,50 @@
+{
+  "total_passed": 205,
+  "total_failed": 0,
+  "overall_exit_code": 0,
+  "tiers": {
+    "tier1": {
+      "target": "tier1_feature_coverage",
+      "passed": 90,
+      "failed": 0,
+      "exit_code": 0,
+      "duration_sec": 2.96,
+      "stdout": "........................................................................ [ 80%]\n..................                                                       [100%]\n90 passed in 0.81s\n",
+      "stderr": ""
+    },
+    "tier2": {
+      "target": "tier2_boundary_corner",
+      "passed": 90,
+      "failed": 0,
+      "exit_code": 0,
+      "duration_sec": 2.23,
+      "stdout": "........................................................................ [ 80%]\n..................                                                       [100%]\n90 passed in 0.77s\n",
+      "stderr": ""
+    },
+    "tier3": {
+      "target": "tier3_cross_feature",
+      "passed": 20,
+      "failed": 0,
+      "exit_code": 0,
+      "duration_sec": 1.77,
+      "stdout": "....................                                                     [100%]\n20 passed in 0.05s\n",
+      "stderr": ""
+    },
+    "tier4": {
+      "target": "tier4_real_world_scenarios",
+      "passed": 5,
+      "failed": 0,
+      "exit_code": 0,
+      "duration_sec": 1.94,
+      "stdout": ".....                                                                    [100%]\n5 passed in 0.05s\n",
+      "stderr": ""
+    }
+  },
+  "visual": {
+    "benchmarks_count": 13,
+    "live_screenshots_captured": 26,
+    "screens_compared": 13,
+    "all_valid": true
+  },
+  "timestamp": "2026-11-01T19:34:31Z"
+}

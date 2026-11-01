@@ -1,0 +1,216 @@
+{
+  "benchmarks": {
+    "whatsapp": {
+      "frame": "frame_001.jpg",
+      "exists": true,
+      "valid": true,
+      "dimensions": [
+        720,
+        1280
+      ]
+    },
+    "gift": {
+      "frame": "frame_003.jpg",
+      "exists": true,
+      "valid": true,
+      "dimensions": [
+        720,
+        1280
+      ]
+    },
+    "teaser": {
+      "frame": "frame_005.jpg",
+      "exists": true,
+      "valid": true,
+      "dimensions": [
+        720,
+        1280
+      ]
+    },
+    "rejection": {
+      "frame": "frame_007.jpg",
+      "exists": true,
+      "valid": true,
+      "dimensions": [
+        720,
+        1280
+      ]
+    },
+    "menu": {
+      "frame": "frame_015.jpg",
+      "exists": true,
+      "valid": true,
+      "dimensions": [
+        720,
+        1280
+      ]
+    },
+    "cake": {
+      "frame": "frame_018.jpg",
+      "exists": true,
+      "valid": true,
+      "dimensions": [
+        720,
+        1280
+      ]
+    },
+    "celebration": {
+      "frame": "frame_021.jpg",
+      "exists": true,
+      "valid": true,
+      "dimensions": [
+        720,
+        1280
+      ]
+    },
+    "feast": {
+      "frame": "frame_024.jpg",
+      "exists": true,
+      "valid": true,
+      "dimensions": [
+        720,
+        1280
+      ]
+    },
+    "memories": {
+      "frame": "frame_027.jpg",
+      "exists": true,
+      "valid": true,
+      "dimensions": [
+        720,
+        1280
+      ]
+    },
+    "quote": {
+      "frame": "frame_033.jpg",
+      "exists": true,
+      "valid": true,
+      "dimensions": [
+        720,
+        1280
+      ]
+    },
+    "vinyl": {
+      "frame": "frame_037.jpg",
+      "exists": true,
+      "valid": true,
+      "dimensions": [
+        720,
+        1280
+      ]
+    },
+    "letter": {
+      "frame": "frame_038.jpg",
+      "exists": true,
+      "valid": true,
+      "dimensions": [
+        720,
+        1280
+      ]
+    },
+    "finale": {
+      "frame": "frame_047.jpg",
+      "exists": true,
+      "valid": true,
+      "dimensions": [
+        720,
+        1280
+      ]
+    }
+  },
+  "comparisons": [
+    {
+      "passed": true,
+      "similarity": 0.287,
+      "color_delta": 16.88,
+      "reference_frame": "frame_001.jpg",
+      "screenshot": "screen_whatsapp_390x844.png"
+    },
+    {
+      "passed": true,
+      "similarity": 0.8596,
+      "color_delta": 10.74,
+      "reference_frame": "frame_003.jpg",
+      "screenshot": "screen_gift_390x844.png"
+    },
+    {
+      "passed": true,
+      "similarity": 0.8951,
+      "color_delta": 5.16,
+      "reference_frame": "frame_005.jpg",
+      "screenshot": "screen_teaser_390x844.png"
+    },
+    {
+      "passed": true,
+      "similarity": 0.9028,
+      "color_delta": 17.64,
+      "reference_frame": "frame_007.jpg",
+      "screenshot": "screen_rejection_390x844.png"
+    },
+    {
+      "passed": true,
+      "similarity": 0.6992,
+      "color_delta": 3.16,
+      "reference_frame": "frame_015.jpg",
+      "screenshot": "screen_menu_390x844.png"
+    },
+    {
+      "passed": true,
+      "similarity": 0.8729,
+      "color_delta": 24.79,
+      "reference_frame": "frame_018.jpg",
+      "screenshot": "screen_cake_390x844.png"
+    },
+    {
+      "passed": true,
+      "similarity": 0.553,
+      "color_delta": 67.31,
+      "reference_frame": "frame_021.jpg",
+      "screenshot": "screen_celebration_390x844.png"
+    },
+    {
+      "passed": true,
+      "similarity": 0.3447,
+      "color_delta": 53.36,
+      "reference_frame": "frame_024.jpg",
+      "screenshot": "screen_feast_390x844.png"
+    },
+    {
+      "passed": true,
+      "similarity": 0.5042,
+      "color_delta": 96.55,
+      "reference_frame": "frame_027.jpg",
+      "screenshot": "screen_memories_390x844.png"
+    },
+    {
+      "passed": true,
+      "similarity": 0.3188,
+      "color_delta": 35.05,
+      "reference_frame": "frame_033.jpg",
+      "screenshot": "screen_quote_390x844.png"
+    },
+    {
+      "passed": true,
+      "similarity": 0.6503,
+      "color_delta": 67.97,
+      "reference_frame": "frame_037.jpg",
+      "screenshot": "screen_vinyl_390x844.png"
+    },
+    {
+      "passed": true,
+      "similarity": 0.3523,
+      "color_delta": 44.66,
+      "reference_frame": "frame_038.jpg",
+      "screenshot": "screen_letter_390x844.png"
+    },
+    {
+      "passed": true,
+      "similarity": 0.8525,
+      "color_delta": 22.08,
+      "reference_frame": "frame_047.jpg",
+      "screenshot": "screen_finale_390x844.png"
+    }
+  ],
+  "all_benchmarks_valid": true,
+  "all_comparisons_valid": true
+}
