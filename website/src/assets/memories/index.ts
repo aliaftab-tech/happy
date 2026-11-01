@@ -25,3 +25,4 @@ export const MemoryPhotos = [
 ];
 
 export default MemoryPhotos;
+

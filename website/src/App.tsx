@@ -62,8 +62,11 @@ const ScreenRenderer: React.FC = () => {
 const AppContent: React.FC = () => {
   const { isPlayingMusic, toggleMusic, playMusic } = useApp();
 
-  // Auto-play background song across entire website on first user interaction
+  // Auto-play background song across entire website on page open and first touch
   React.useEffect(() => {
+    // Try to auto-play immediately when page loads
+    void playMusic();
+
     const handleFirstInteraction = () => {
       void playMusic();
     };

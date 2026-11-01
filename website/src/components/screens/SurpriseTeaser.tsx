@@ -30,17 +30,17 @@ export const SurpriseTeaser: React.FC<SurpriseTeaserProps> = ({
       data-screen="teaser"
       className="flex-1 flex flex-col items-center justify-between py-12 px-6 text-center"
     >
-      <div className="w-full mt-4">
-        <h1 className="font-serif text-3xl sm:text-4xl font-normal text-white tracking-wide leading-snug drop-shadow-md">
-          <TypewriterText text="Do you want to see your Surprise" cursor delay={0.15} />
+      <div className="w-full mt-4 px-2">
+        <h1 className="font-serif text-2xl sm:text-3xl font-normal text-white tracking-wide leading-snug drop-shadow-md break-words">
+          <TypewriterText text="Do you want to see your Surprise, Iman Fatima?" cursor delay={0.12} />
         </h1>
       </div>
 
-      <div className="my-auto py-6">
+      <div className="my-auto py-4">
         <img
           src={Images.catsCuddle}
           alt="Peach and Goma cuddle"
-          className="w-56 h-auto max-h-56 object-contain mx-auto drop-shadow-lg transition-transform duration-300 hover:scale-105"
+          className="w-64 h-auto max-h-60 object-contain mx-auto drop-shadow-2xl transition-transform duration-300 hover:scale-105"
         />
       </div>
 
