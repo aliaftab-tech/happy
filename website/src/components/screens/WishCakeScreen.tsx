@@ -141,7 +141,7 @@ export const WishCakeScreen: React.FC<WishCakeScreenProps> = ({
             <img
               src={Images.birthdayCakeFancy}
               alt="Celebration Cake"
-              className="w-56 h-auto max-h-56 object-contain mx-auto drop-shadow-2xl transition-transform hover:scale-105"
+              className="w-64 h-auto max-h-64 object-contain mx-auto drop-shadow-2xl transition-transform hover:scale-105"
             />
           </div>
 
@@ -191,7 +191,7 @@ export const WishCakeScreen: React.FC<WishCakeScreenProps> = ({
               <img
                 src={Images.bearPandaEatingCake}
                 alt="Peach and Goma eating cake"
-                className="w-64 h-auto max-h-48 object-contain mx-auto drop-shadow-lg"
+                className="w-72 h-auto max-h-56 object-contain mx-auto drop-shadow-lg"
               />
             </div>
 

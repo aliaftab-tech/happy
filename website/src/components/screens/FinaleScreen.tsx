@@ -26,7 +26,7 @@ export const FinaleScreen: React.FC<FinaleScreenProps> = ({ onHome }) => {
           <img
             src={Images.letterEnvelope}
             alt="Letter Envelope with Heart Wax Seal"
-            className="w-20 h-auto object-contain drop-shadow-lg transform -rotate-3 hover:rotate-0 transition-transform"
+            className="w-28 h-auto object-contain drop-shadow-lg transform -rotate-3 hover:rotate-0 transition-transform"
           />
         </div>
       </div>
@@ -66,8 +66,8 @@ export const FinaleScreen: React.FC<FinaleScreenProps> = ({ onHome }) => {
             alt="Teddy bear with heart"
             className="w-56 h-auto max-h-56 object-contain mx-auto drop-shadow-2xl animate-pulse [animation-duration:2.5s]"
           />
-          <p className="mt-3 font-marker text-lg text-pink-200 drop-shadow">
-            Always & Forever ♥
+          <p className="mt-3 font-serif text-lg sm:text-xl text-pink-200 drop-shadow font-medium">
+            Always & Forever Mine, Iman Fatima ♥
           </p>
         </div>
       </div>
